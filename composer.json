@@ -1,0 +1,22 @@
+{
+  "name": "mauro-moreno/silex-scientist",
+  "description": "Scientist wrapper for the Silex framework.",
+  "keywords": ["silex", "scientist"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mauro Moreno",
+      "email": "moreno.mauro.emanuel@gmail.com"
+    }
+  ],
+  "require": {
+    "daylerees/scientist": "^0.1.1@alpha"
+  },
+  "require-dev": {
+    "silex/silex": ">=1"
+  },
+  "autoload": {
+    "psr-4": { "Scientist\\Silex\\": "src" }
+  },
+  "minimum-stability": "alpha"
+}
