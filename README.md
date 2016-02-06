@@ -13,6 +13,12 @@ Enable Service Provider
 <?php
 $app = new Silex\Application;
 $app->register(new MauroMoreno\JsonApi\JsonApiServiceProvider);
+```
+
+## Usage
+
+```php
+<?php
 $app['scientist']->experiment('foo')
     ->control($controlCallback)
     ->trial('First trial.', $trialCallback)
